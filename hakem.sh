@@ -304,6 +304,9 @@ while true; do
                 read -p ""
                 sleep 2
                 break
+        
+        else
+                exit 0
         fi
 done
 
